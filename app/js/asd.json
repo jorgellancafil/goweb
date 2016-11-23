@@ -1,0 +1,153 @@
+pending
+    :
+    undefined
+processScheduled
+    :
+    false
+status
+    :
+    1
+value
+    :
+    Object
+data
+    :
+    Array[6]
+0
+    :
+    Object
+$$hashKey
+    :
+    "uiGrid-005I"
+companyDateRegister
+    :
+    "2006-04-24 15:53:25.967"
+companyId
+    :
+    19874
+companyLastLogin
+    :
+    null
+companyName
+    :
+    "Universidad de Tarapacá"
+companyRenovationType
+    :
+    1
+companyRut
+    :
+    "1-1"
+companyStatusCode
+    :
+    "active"
+companyStatusID
+    :
+    0
+contactName
+    :
+    "Universidad de Tarapacá"
+countryId
+    :
+    1
+cvLimit
+    :
+    1000
+cvsDonwloadTotal
+    :
+    0
+dateFinished
+    :
+    "2016-10-12 00:00:00.0"
+email
+    :
+    "asd@asd.cl"
+featureLimit
+    :
+    0
+jobLimit
+    :
+    0
+password
+    :
+    "acceso"
+planName
+    :
+    "Gratis"
+telephone
+    :
+    "123123"
+totalJobPublished
+    :
+    63
+username
+    :
+    "utarapaca"
+__proto__
+    :
+    Object
+1
+    :
+    Object
+2
+    :
+    Object
+3
+    :
+    Object
+4
+    :
+    Object
+5
+    :
+    Object
+length
+    :
+    6
+listData
+    :
+    Array[6]
+0
+    :
+    Object
+1
+    :
+    Object
+2
+    :
+    Object
+3
+    :
+    Object
+4
+    :
+    Object
+5
+    :
+    Object
+length
+    :
+    6
+listData
+    :
+    Array[6]
+__proto__
+    :
+    Array[0]
+__proto__
+    :
+    Array[0]
+pageNumber
+    :
+    1
+rowsNumber
+    :
+    25
+status
+    :
+    "OK"
+totalPages
+    :
+    1
+totalRecords
+    :
+    6

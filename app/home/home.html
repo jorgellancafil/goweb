@@ -1,0 +1,45 @@
+<form id="main-contact" ng-submit="envio()">
+    <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Nombre" ng-model="model.name">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <input type="text" name="email" class="form-control" placeholder="Email" ng-model="model.mail">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <input type="number" name="phone" class="form-control" placeholder="Teléfono" ng-model="model.phone">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <input type="radio" ng-click="selectplan('eco');" name="radio1" value="algo"> Plan Económico
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="form-group">
+                <input type="radio" ng-click="selectplan('full');" name="radio1" value="algo"> Plan Full
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <input type="radio" name="radio1" ng-click="selectplan('info');" value="algo"> Más Información
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <textarea name="message" id="message" class="form-control" rows="4" maxlength="300" placeholder="Ingrese su mensaje" ng-model="model.message"></textarea>
+    </div>
+
+    <no-captcha g-recaptcha-response="gRecaptchaResponse" theme='dark' control="noCaptchaControl" site-key="goweb">
+    </no-captcha>
+
+    <input type="hidden" name="plan" id="plan" value="">
+
+    <input tybowerpe="submit" class="btn btn-primary" name="name" value="Enviar Datos">
+
+</form>
