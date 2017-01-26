@@ -3,360 +3,385 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title> GoWeb Chile </title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title> GoWeb Chile </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="js/sweetalert/dist/sweetalert.css">
+  <link rel="stylesheet" type="text/css" href="js/sweetalert/dist/sweetalert.css">
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
   <![endif]-->
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="images/ICO.png">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/ICO.png">
+
 </head>
 <!--/head-->
 
 <body>
 
-    <!--.preloader-->
-    <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-    <!--/.preloader-->
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
 
-    <header id="home">
-        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/1.jpg)">
-                    <div class="caption">
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
 
-                        <h1 class="animated fadeInRightBig">PLAN ECONÓMICO desde <span>$70.000</span></h1>
-                        <p class="animated fadeInLeftBig">Su sitio web por <span>1 año!</span></p>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comencemos</a>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(images/slider/1.jpg)">
-                    <div class="caption">
-                        <h1 class="animated fadeInLeftBig">Compromiso y <span>Calidad</span></h1>
-                        <p class="animated fadeInRightBig">Su sitio web acorde a su negocio</p>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comencemos</a>
-                    </div>
-                </div>
-            </div>
-            <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-            <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
+            <h1 class="animated fadeInRightBig">PLAN ECONÓMICO desde <span>$70.000</span></h1>
+            <p class="animated fadeInLeftBig">Su sitio web por <span>1 año!</span></p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comencemos</a>
+          </div>
         </div>
-        <!--/#home-slider-->
-        <div class="main-nav">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <div class="item" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Compromiso y <span>Calidad</span></h1>
+            <p class="animated fadeInRightBig">Su sitio web acorde a su negocio</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comencemos</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div>
+    <!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#services">Planes</a></li>
-                        <li class="scroll"><a href="#about-us">Sobre Nosotros</a></li>
-                        <li class="scroll"><a href="#portfolio">Portafolio</a></li>
-                        <li class="scroll"><a href="#contact">Contactenos</a></li>
-                    </ul>
-                </div>
-            </div>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>
         </div>
-        <!--/#main-nav-->
-    </header>
-    <!--/#home-->
-    <section id="services">
-        <div class="container">
-            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="row">
-                    <div class="text-center col-sm-8 col-sm-offset-2">
-                        <h2>Planes</h2>
-                        <p>En pleno siglo 21, estar presente en Internet es imagen de profesionalismo para tu negocio o emprendimiento, es por ello que los planes de GoWeb Chile están pensados para estar al alcance de todos.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center our-services">
-                <div class="row">
 
-                    <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-                        <div class="service-icon">
-                            <i class="fa fa-certificate"></i>
-                        </div>
-                        <div class="service-info">
-                            <h3>PLAN ECONÓMICO | $70.000</h3>
-                            <button class="btn btn-sm btn-primary"><a href="#contact"  onclick="selectplan('eco')"  style="color:#FFFFFF">Adquirir este Plan!</a></button>
-                            <p><i class="fa fa-globe"></i> Dominio .com o .cl</p>
-                            <p><i class="fa fa-mobile-phone"></i> Diseño responsivo (Adaptable a smartphones y tablets)</p>
-                            <p><i class="fa fa-envelope"></i> 10 Emails corporativos</p>
-                            <p><i class="fa fa-image"></i> Slider de imagenes</p>
-                            <p><i class="fa fa-image"></i> Galería de imagenes</p>
-                            <p><i class="fa fa-check"></i> Hasta 5 sitios interiores</p>
-                            <p><i class="fa fa-facebook-official"></i> Enlace a Redes Sociales</p>
-                            <p><i class="fa fa-phone"></i> Botón de llamado telefónico</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-                        <div class="service-icon">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <div class="service-info">
-                            <div class="service-info">
-                                <h3>PLAN FULL | $90.000</h3>
-                                <button class="btn btn-sm btn-primary"><a href="#contact" onclick="selectplan('full')" style="color:#FFFFFF">Adquirir este Plan!</a></button>
-                                <p><i class="fa fa-globe"></i> Dominio .com o .cl</p>
-                                <p><i class="fa fa-group"></i> <strong>Formulario de contacto</strong></p>
-                                <p><i class="fa fa-check"></i> <strong>Hasta 9 sitios interiores</strong></p>
-                                <p><i class="fa fa-globe"></i> <strong>Mapa de ubicación con Google Maps</strong></p>
-                                <p><i class="fa fa-mobile-phone"></i> Diseño responsivo (Adaptable a smartphones y tablets)</p>
-                                <p><i class="fa fa-envelope"></i> 20 Emails corporativos</p>
-                                <p><i class="fa fa-image"></i> Slider de imagenes</p>
-                                <p><i class="fa fa-image"></i> Galería de imagenes</p>
-                                <p><i class="fa fa-facebook-official"></i> Enlace a Redes Sociales</p>
-                                <p><i class="fa fa-phone"></i> Botón de llamado telefónico</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="row">
-                    <div class="text-center col-sm-8 col-sm-offset-2">
-                        <h2>Los detalles hacen la diferencia</h2>
-                        <p>Con el pago unico del Plan a elección tendrá su sitio web operativo en poco tiempo, durante todo un año, luego del año solo se hará un cobro de $30.000 por otro año.-</p>
-                    </div>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Planes</a></li>
+            <li class="scroll"><a href="#about-us">Sobre Nosotros</a></li>
+            <li class="scroll"><a href="#portfolio">Portafolio</a></li>
+            <li class="scroll"><a href="#contact">Contactenos</a></li>
+          </ul>
         </div>
-    </section>
-    <!--/#services-->
-    <section id="about-us" class="parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2>Sobre Nosotros</h2>
-                        <p>GoWeb Chile nace con la motivación de desarrollar páginas web integrales utilizando tecnologías acordes para cada necesidad, potenciando cada cliente para alcanzar reconocimiento mundial en la Internet.
-                        </p>
-                    </div>
-
-                    <div class="container text-center">
-                        <h4>Siguenos en nuestras redes sociales:</h4>
-                        <div class="social-icons">
-                            <ul>
-                                <li><a class="facebook" href="https://www.facebook.com/gowebchile/"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="instagram" href="https://www.instagram.com/gowebchile/"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Planes</h2>
+            <p>En pleno siglo 21, estar presente en Internet es imagen de profesionalismo para tu negocio o emprendimiento, es por ello que los planes de GoWeb Chile están pensados para estar al alcance de todos.</p>
+          </div>
         </div>
-    </section>
-    <!--/#about-us-->
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
 
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h2>Portafolio</h2>
-                </div>
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fa fa-certificate"></i>
             </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/portfolio/1.png" alt="">
-                        </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>Muebles & Construcciones</h3>
-                                        <p>Sitio web responsivo y formulario de contacto</p>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <span class="folio-link"><a class="" href="http://www.mueblesllancafil.com" target="blank_"><i class="fa fa-link"></i></a></span>
-                                        <span style="display:none;" class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/portfolio/2.png" alt="">
-                        </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>ADES</h3>
-                                        <p>Integración de nuevas secciones al proyecto de la Empresa afiliada a Copec.</p>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <!--<span class="folio-link"><a class="folio-read-more" href="#"><i class="fa fa-link"></i></a></span>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="service-info">
+              <h3>PLAN ECONÓMICO | Desde $70.000</h3>
+              <button class="btn btn-sm btn-primary"><a href="#contact"  onclick="selectplan('eco')"  style="color:#FFFFFF">Adquirir este Plan!</a></button>
+              <p><i class="fa fa-globe"></i> Dominio .com o .cl</p>
+              <p><i class="fa fa-mobile-phone"></i> Diseño responsivo (Adaptable a smartphones y tablets)</p>
+              <p><i class="fa fa-envelope"></i> 10 Emails corporativos</p>
+              <p><i class="fa fa-image"></i> Slider de imagenes</p>
+              <p><i class="fa fa-image"></i> Galería de imagenes</p>
+              <p><i class="fa fa-check"></i> Hasta 5 sitios interiores</p>
+              <p><i class="fa fa-facebook-official"></i> Enlace a Redes Sociales</p>
+              <p><i class="fa fa-phone"></i> Botón de llamado telefónico</p>
             </div>
-        </div>
-        <!-- /#portfolio-single-wrap -->
-    </section>
-    <!--/#portfolio-->
+          </div>
 
-
-
-    <section id="features" class="parallax">
-        <div class="container">
-            <div class="row count">
-                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="300ms">
-                    <i class="fa fa-globe"></i>
-                    <h3 class="timer">1000</h3>
-                    <p>MILLONES DE PÁGINAS WEB EN TODO EL MUNDO</p>
-                </div>
-                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="300ms">
-                    <i class="fa fa-globe"></i>
-                    <h3 class="timer">185</h3>
-                    <p>MIL PÁGINAS WEB EN CHILE</p>
-                </div>
-                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="700ms">
-                    <i class="fa fa-university"></i>
-                    <h3 class="timer">1</h3>
-                    <p>MILLON DE EMPRESAS EN CHILE</p>
-                </div>
+          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fa fa-check"></i>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="700ms">
-
-                    <h3>¿Qué esperas para ser parte? <a href="#contact">Únete</a></h3>
-
-                </div>
+            <div class="service-info">
+              <div class="service-info">
+                <h3>PLAN FULL | Desde $90.000</h3>
+                <button class="btn btn-sm btn-primary"><a href="#contact" onclick="selectplan('full')" style="color:#FFFFFF">Adquirir este Plan!</a></button>
+                <p><i class="fa fa-globe"></i> Dominio .com o .cl</p>
+                <p><i class="fa fa-group"></i> <strong>Formulario de contacto</strong></p>
+                <p><i class="fa fa-check"></i> <strong>Hasta 9 sitios interiores</strong></p>
+                <p><i class="fa fa-globe"></i> <strong>Mapa de ubicación con Google Maps</strong></p>
+                <p><i class="fa fa-mobile-phone"></i> Diseño responsivo (Adaptable a smartphones y tablets)</p>
+                <p><i class="fa fa-envelope"></i> 20 Emails corporativos</p>
+                <p><i class="fa fa-image"></i> Slider de imagenes</p>
+                <p><i class="fa fa-image"></i> Galería de imagenes</p>
+                <p><i class="fa fa-facebook-official"></i> Enlace a Redes Sociales</p>
+                <p><i class="fa fa-phone"></i> Botón de llamado telefónico</p>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <!--/#features-->
+      </div>
+      <hr>
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Los detalles hacen la diferencia</h2>
+            <p>Con el pago unico del Plan a elección tendrá su sitio web operativo en poco tiempo, durante todo un año, luego del año solo se hará un cobro de $30.000 por otro año.-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#services-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Sobre Nosotros</h2>
+            <p>GoWeb Chile nace con la motivación de desarrollar páginas web integrales utilizando tecnologías acordes para cada necesidad, potenciando cada cliente para alcanzar reconocimiento mundial en la Internet.
+            </p>
+          </div>
 
-    <section id="contact">
-
-        <div id="contact-us" class="parallax">
-            <div class="container">
-                <div class="row">
-                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2>Contacto</h2>
-                        <p>Obtenga Planes, Resuelva sus dudas, respondemos sus consultas.</p>
-                    </div>
-                </div>
-                <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="row">
-                        <div class="col-sm-6">
-
-                            <div ng-view></div>
-
-
-                        </div>
-
-
-                        <div class="col-sm-6" style="margin-top: 10px;">
-                            <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                                <p>GoWeb Chile.</p>
-                                <ul class="address">
-                                    <!--<li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>-->
-                                    <li><i class="fa fa-phone"></i> <span> Fono:</span> +569 62020717 </li>
-                                    <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:contacto@gowebchile.cl"> contacto@gowebchile.cl</a></li>
-                                    <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.gowebchile.cl</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="container text-center">
+            <h4>Siguenos en nuestras redes sociales:</h4>
+            <div class="social-icons">
+              <ul>
+                <li><a class="facebook" href="https://www.facebook.com/gowebchile/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/gowebchile/"><i class="fa fa-instagram"></i></a></li>
+              </ul>
             </div>
-        </div>
-    </section>
-    <!--/#contact-->
-    <footer id="footer">
-        <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="container text-center">
-                <div class="footer-logo">
-                    <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+          </div>
 
-                </div>
-                <div class="social-icons">
-                    <ul>
-                        <li><a class="facebook" href="https://www.facebook.com/gowebchile/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="instagram" href="https://www.instagram.com/gowebchile/"><i class="fa fa-instagram"></i></a></li>
-                        <li><a class="twitter" href="mailto:contacto@gowebchile.cl"><i class="fa fa-envelope"></i></a></li>
-                        <li><a class="phone" href="tel://962020717"><i class="fa fa-phone"></i></a></li>
-                    </ul>
-                </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#about-us-->
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Portafolio</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.png" alt="">
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>&copy; 2016 GoWeb Chile</p>
-                    </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Muebles & Construcciones</h3>
+                    <p>Sitio web responsivo y formulario de contacto</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="" href="http://www.mueblesllancafil.com" target="blank_"><i class="fa fa-link"></i></a></span>
+                    <span style="display:none;" class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="app.js"></script>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>CSEE-IT</h3>
+                    <p>Sitio web corporativo, expertos en Técnologias de Información.</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="" href="http://www.csee-it.cl" target="blank_"><i class="fa fa-link"></i></a></span>
+                    <span style="display:none;" class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Aliado Logístico Propiedades</h3>
+                    <p>Sitio web corporativo en desarrollo.</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="" href="http://conamorparati.gowebchile.cl" target="blank_"><i class="fa fa-link"></i></a></span>
+                    <span style="display:none;" class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#portfolio-single-wrap -->
+  </section>
+  <!--/#portfolio-->
 
-    <script src="js/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="bower_components/angular-no-captcha/src/angular-no-captcha.js"></script>
 
 
-    <script src="components/version/version.js"></script>
-    <script src="components/version/version-directive.js"></script>
-    <script src="components/version/interpolate-filter.js"></script>
-    <script src="home/home.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="300ms">
+          <i class="fa fa-globe"></i>
+          <h3 class="timer">1000</h3>
+          <p>MILLONES DE PÁGINAS WEB EN TODO EL MUNDO</p>
+        </div>
+        <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="300ms">
+          <i class="fa fa-globe"></i>
+          <h3 class="timer">185</h3>
+          <p>MIL PÁGINAS WEB EN CHILE</p>
+        </div>
+        <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="700ms">
+          <i class="fa fa-university"></i>
+          <h3 class="timer">1</h3>
+          <p>MILLON DE EMPRESAS EN CHILE</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="700ms">
 
-    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/mousescroll.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+          <h3>¿Qué esperas para ser parte? <a href="#contact">Únete</a></h3>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#features-->
+
+  <section id="contact">
+
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contacto</h2>
+            <p>Obtenga Planes, Resuelva sus dudas, respondemos sus consultas.</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+
+              <div ng-view></div>
+
+
+            </div>
+
+
+            <div class="col-sm-6" style="margin-top: 10px;">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p>GoWeb Chile.</p>
+                <ul class="address">
+                  <!--<li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>-->
+                  <li><i class="fa fa-phone"></i> <span> Fono:</span> +569 62020717 </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:contacto@gowebchile.cl"> contacto@gowebchile.cl</a></li>
+                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.gowebchile.cl</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="facebook" href="https://www.facebook.com/gowebchile/"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/gowebchile/"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="twitter" href="mailto:contacto@gowebchile.cl"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="phone" href="tel://962020717"><i class="fa fa-phone"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2016 GoWeb Chile</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer></script>
+  <script src="bower_components/angular-recaptcha/release/angular-recaptcha.js"></script>
+
+  <script src="js/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="home/home.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 
 </body>
